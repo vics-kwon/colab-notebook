@@ -1,7 +1,7 @@
 import opensim as osim
 from osim.env import ProstheticsEnv
 
-env = ProstheticsEnv(visualize=True)
+env = ProstheticsEnv(visualize=False)
 observation = env.reset()
 total_reward = 0.0
 for i in range(200):
